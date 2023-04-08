@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{179f1e40-b8ff-47df-8b9c-eb7b85d5cd51}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Windy bypass</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\bypass\windybypass\Project1\Project1\AuthConnection;D:\windybypass\Project1\Project1\DiscordSDK\src;D:\windybypass\Project1\Project1\DiscordSDK\include;D:\windybypass\Project1\Discord SDK\include;D:\windybypass\Project1\Discord SDK\src;$(IncludePath)</IncludePath>
+    <TargetExt>
+    </TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp" />
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp" />
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp" />
+    <ClCompile Include="DiscordSDK\src\serialization.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\auth.hpp" />
+    <ClInclude Include="api\json.hpp" />
+    <ClInclude Include="api\skStr.h" />
+    <ClInclude Include="api\utils.hpp" />
+    <ClInclude Include="DiscordActive.h" />
+    <ClInclude Include="DiscordActiveRPC.h" />
+    <ClInclude Include="DiscordSDK\include\discord_register.h" />
+    <ClInclude Include="DiscordSDK\include\discord_rpc.h" />
+    <ClInclude Include="DiscordSDK\src\backoff.h" />
+    <ClInclude Include="DiscordSDK\src\connection.h" />
+    <ClInclude Include="DiscordSDK\src\msg_queue.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\allocators.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\document.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodedstream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodings.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\en.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\error.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\filereadstream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\filewritestream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\fwd.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\itoa.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\meta.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\pow10.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\regex.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\stack.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strtod.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\swap.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorybuffer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorystream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\pointer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\prettywriter.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\rapidjson.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\reader.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\schema.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\stream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\stringbuffer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\writer.h" />
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h" />
+    <ClInclude Include="DiscordSDK\src\serialization.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="urlmon.h" />
+    <ClInclude Include="xorstr.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiscordSDK\DiscordRPC Active.exe" />
+    <None Include="DiscordSDK\src\discord_register_osx.m" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DiscordSDK\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="api\libcurl.lib" />
+    <Library Include="api\library_x64.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

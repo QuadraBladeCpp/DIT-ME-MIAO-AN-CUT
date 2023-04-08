@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\vs1\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\duc\Desktop\Project1\Project1\Source.cpp(518,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\duc\Desktop\Project1\Project1\Source.cpp(519): error C4700: uninitialized local variable 'hwnd3' used

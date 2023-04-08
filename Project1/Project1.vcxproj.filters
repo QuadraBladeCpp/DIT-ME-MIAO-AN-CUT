@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DiscordRPC">
+      <UniqueIdentifier>{502060f1-b3a1-43d5-966a-85f34552fdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC\src">
+      <UniqueIdentifier>{7b4e2820-93c6-44a0-8b51-e3a4ea1f395f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC\include">
+      <UniqueIdentifier>{82fb6d56-255b-4731-a908-89097b4bac07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC\active Discord">
+      <UniqueIdentifier>{aacd2573-b56f-4c87-abed-939437a38034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC\api">
+      <UniqueIdentifier>{f044bf1b-0f21-4597-862f-0014d8231672}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\include\discord_register.h">
+      <Filter>DiscordRPC\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\include\discord_rpc.h">
+      <Filter>DiscordRPC\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\allocators.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\cursorstreamwrapper.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\document.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodedstream.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodings.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\en.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\error.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\filereadstream.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\filewritestream.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\fwd.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\biginteger.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\diyfp.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\dtoa.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\ieee754.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\itoa.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\meta.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\pow10.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\regex.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\stack.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strfunc.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strtod.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\swap.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\istreamwrapper.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorybuffer.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorystream.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\inttypes.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\stdint.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\ostreamwrapper.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\pointer.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\prettywriter.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\rapidjson.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\reader.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\schema.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\stream.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\stringbuffer.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rapidjson\writer.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\connection.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordActive.h">
+      <Filter>DiscordRPC</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordActiveRPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\skStr.h">
+      <Filter>DiscordRPC\api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\utils.hpp">
+      <Filter>DiscordRPC\api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\auth.hpp">
+      <Filter>DiscordRPC\api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\json.hpp">
+      <Filter>DiscordRPC\api</Filter>
+    </ClInclude>
+    <ClInclude Include="urlmon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiscordSDK\src\discord_register_osx.m">
+      <Filter>DiscordRPC\src</Filter>
+    </None>
+    <None Include="DiscordSDK\DiscordRPC Active.exe">
+      <Filter>DiscordRPC\active Discord</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DiscordSDK\src\CMakeLists.txt">
+      <Filter>DiscordRPC\src</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="api\libcurl.lib">
+      <Filter>DiscordRPC\api</Filter>
+    </Library>
+    <Library Include="api\library_x64.lib">
+      <Filter>DiscordRPC\api</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
