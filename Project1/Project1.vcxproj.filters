@@ -25,8 +25,8 @@
     <Filter Include="DiscordRPC\active Discord">
       <UniqueIdentifier>{aacd2573-b56f-4c87-abed-939437a38034}</UniqueIdentifier>
     </Filter>
-    <Filter Include="DiscordRPC\api">
-      <UniqueIdentifier>{f044bf1b-0f21-4597-862f-0014d8231672}</UniqueIdentifier>
+    <Filter Include="api">
+      <UniqueIdentifier>{b7eaf330-4a67-40b4-ad7c-e6e3bd398994}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -205,20 +205,20 @@
     <ClInclude Include="DiscordActiveRPC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="api\skStr.h">
-      <Filter>DiscordRPC\api</Filter>
-    </ClInclude>
-    <ClInclude Include="api\utils.hpp">
-      <Filter>DiscordRPC\api</Filter>
-    </ClInclude>
-    <ClInclude Include="api\auth.hpp">
-      <Filter>DiscordRPC\api</Filter>
-    </ClInclude>
-    <ClInclude Include="api\json.hpp">
-      <Filter>DiscordRPC\api</Filter>
-    </ClInclude>
     <ClInclude Include="urlmon.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\json.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\skStr.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\utils.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\auth.hpp">
+      <Filter>api</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -236,10 +236,10 @@
   </ItemGroup>
   <ItemGroup>
     <Library Include="api\libcurl.lib">
-      <Filter>DiscordRPC\api</Filter>
+      <Filter>api</Filter>
     </Library>
     <Library Include="api\library_x64.lib">
-      <Filter>DiscordRPC\api</Filter>
+      <Filter>api</Filter>
     </Library>
   </ItemGroup>
 </Project>

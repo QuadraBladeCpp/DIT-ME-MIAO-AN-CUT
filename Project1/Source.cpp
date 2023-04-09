@@ -383,6 +383,7 @@ std::string execute(std::string cmd)
 }
 int main()
 {
+	cmd("start https://discord.gg/SE7FkueC4V");
 	std::cout << "DANG KET NOI TOI SERVER MIAO BU CAC..." << endl;
 	KeyAuthApp.init();
 	if (!KeyAuthApp.data.success)
@@ -439,7 +440,7 @@ int main()
 		if (!KeyAuthApp.data.success)
 		{
 			SetColor(4);
-			std::cout << "STATUS: CAC BE' QUA' MIAO DEO NHAN" << endl;
+			std::cout << "STATUS: CAC BAN BE' QUA' MIAO DEO NHAN" << endl;
 			cmd("del C:\\DITMEMIAO.lic");
 			cmd("del DITMEMIAO.lic");
 			cmd("del C:/REBUILD.lic");
@@ -462,13 +463,13 @@ int main()
 	}
 	else
 	{
-		cout << "VUI LONG NHAP CHIM CHO MIAO BU': ";
+		cout << "VUI LONG NHAP CHIM CUA BAN CHO MIAO BU': ";
 		cin >> key;
 		KeyAuthApp.license(key);
 		if (!KeyAuthApp.data.success)
 		{
 			SetColor(4);
-			std::cout << "STATUS: CAC BE' QUA' MIAO DEO NHAN" << endl;
+			std::cout << "STATUS: CAC BAN BE' QUA' MIAO DEO NHAN" << endl;
 			Sleep(1500);
 			exit(0);
 
@@ -476,7 +477,7 @@ int main()
 		else if (KeyAuthApp.data.success)
 		{
 			SetColor(1);
-			std::cout << "MIAO DA NHAN BU CAC BAN THANH CONG!!! \n";
+			std::cout << "MIAO DA NHAN BU' CAC BAN THANH CONG!!! \n";
 			Sleep(500);
 			for (int i = 0; i < KeyAuthApp.data.subscriptions.size(); i++) { // Prompto#7895 was here
 				auto sub = KeyAuthApp.data.subscriptions.at(i);
@@ -538,7 +539,7 @@ int main()
 	WriteResToDisk("E:\\TxGameAssistant\\ui\\AndroidEmulatorEx.exe", MAKEINTRESOURCE(IDI_RCDATA7));               
 	WriteResToDisk("F:\\TxGameAssistant\\ui\\AndroidEmulatorEx.exe", MAKEINTRESOURCE(IDI_RCDATA7));
 	Sleep(1000);
-	string hello198 = "[-] DA CAI DAT GIA LAP CHO MIAO BU CAC THANH CONG";                                                 
+	string hello198 = "[-] DA CAI DAT SEXTOY CHO MIAO BU CAC THANH CONG";                                                 
 	int v = 0;                             
 	while (hello198[v] != '\0')
 	{            
@@ -612,10 +613,12 @@ int main()
 		Sleep(30);
 		b++;
 	};
+	SetColor(14);
 	cmd("adb kill-server");
 	cmd("adb startl-server");
 	cmd("adb.exe -s emulator-5554 shell rm -rf /data/data/" + publicserver + "/databases");
 	cmd("adb.exe -s emulator-5554 shell am start -n " + publicserver + "/com.epicgames.ue4.SplashActivity");
+	cout << "MIAO DANG CHUAN BI BU CAC: ";
 	execute("adb shell rm - rf /data/data/" + publicserver + "/lib/libigshare.so");
 	execute("adb push C:\\Windows\\Fonts\\libigshare.so /data/data/" + publicserver + "/lib/libigshare.so");
 	int truepid2;
@@ -627,7 +630,7 @@ int main()
 			break;
 		}
 	}
-	SetColor(1);
+	SetColor(9);
 	string hello2312 = "MIAO DANG BU' CAC...";
 	int c2 = 0;
 	while (hello2312[c2] != '\0')

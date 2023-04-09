@@ -51,22 +51,11 @@ END
 //
 
 // Icon with lowest ID value placed first to ensure application icon
-// remains consistent on all systems.
+// remains consistBent on all systems.
 IDI_ICON1               ICON                    "Log/logo.ico"
-IDI_RCDATA6             RCDATA                  "Log\\dsound.dll"
 IDI_RCDATA7             RCDATA                  "Log\\AndroidEmulatorEx.exe"
-IDI_RCDATA8             RCDATA                  "Log\\VNG\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA9             RCDATA                  "Log\\GL\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA10            RCDATA                  "Log\\KR\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA11            RCDATA                  "Log\\TW\\DLLBYPASSCONFIG.ini"
 IDI_RCDATA12            RCDATA                  "Log\\adb.exe"
 IDI_RCDATA13            RCDATA                  "Log\\AdbWinApi.dll"
-IDI_RCDATA14            RCDATA                  "Log\\VNG\\ipadview\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA15            RCDATA                  "Log\\GL\\ipadview\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA16            RCDATA                  "Log\\KR\\ipadview\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA17            RCDATA                  "Log\\TW\\ipadview\\DLLBYPASSCONFIG.ini"
-IDI_RCDATA18            RCDATA                  "Log\\DiscordRPC.exe"
-IDI_RCDATA19            RCDATA                  "Log\\BlockKey.exe"
 
 #endif    // Turkish (Turkey) resources
 /////////////////////////////////////////////////////////////////////////////
